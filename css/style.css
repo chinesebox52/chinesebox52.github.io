@@ -16,7 +16,7 @@ body {
   font-style: italic;
 }
 header {
-  max-width: 960px;
+  width: 960px;
   background-color: crimson;
   display: flex;
   align-items: center;
@@ -39,9 +39,9 @@ header nav a{
 }
 
 div.banner {
-  max-width: 960px;
+  width: 960px;
   margin: 0 auto;
-  background-image: url("../resources/images/DSCF6328.jpg");
+  background-image: url("../resources/images/IMG_0858.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -59,7 +59,7 @@ div.banner span {
 }
 
 footer {
-  max-width: 960px;
+  width: 960px;
   margin: 0 auto;
   padding: 0.7rem 3rem;
   color: white;
