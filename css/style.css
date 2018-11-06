@@ -1,0 +1,72 @@
+html {
+  font-size: 16px;
+  font-family: "Verdana", sans-serif;
+}
+
+body {
+  line-height: 1.2;
+  background-color: white;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.em {
+  font-style: italic;
+}
+header {
+  max-width: 960px;
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+header span{
+  flex-grow: 1;
+  font-size: 1rem;
+}
+
+header nav a{
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+div.banner {
+  max-width: 960px;
+  margin: 0 auto;
+  background-image: url("../resources/images/DSCF6328.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+div.banner span {
+  display: none;
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: lightblue;
+}
+
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.7rem 3rem;
+  color: white;
+  background-color: firebrick;
+  text-align: right;
+}
+
+footer div.contact {
+  font-size: 0.8rem;
+}
