@@ -21,16 +21,23 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 3rem;
   font-weight: bold;
   margin: 0 auto;
 }
 
+
+
 header span{
   flex-grow: 1;
   font-size: 1rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
+header nav {
+  margin-right: 3rem;
+}
 header nav a{
   color: white;
   font-size: 0.8rem;
@@ -41,7 +48,7 @@ header nav a{
 div.banner {
   width: 960px;
   margin: 0 auto;
-  background-image: url("../resources/images/IMG_0858.jpg");
+  background-image: url('../resources/images/IMG_0858.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -61,7 +68,7 @@ div.banner span {
 footer {
   width: 960px;
   margin: 0 auto;
-  padding: 0.7rem 3rem;
+  padding: 0.7rem 0;
   color: white;
   background-color: firebrick;
   text-align: right;
@@ -69,4 +76,9 @@ footer {
 
 footer div.contact {
   font-size: 0.8rem;
+}
+
+footer div.contact,
+footer > span {
+    margin-right: 2rem;
 }
