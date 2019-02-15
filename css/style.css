@@ -16,8 +16,8 @@ body {
   font-style: italic;
 }
 header {
-  width: 960px;
-  background-color: crimson;
+  width: 100%;
+  background-color: #971F06;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,48 +29,88 @@ header {
 
 header span{
   flex-grow: 1;
-  font-size: 1rem;
+  font-size: 2rem;
   margin-left: 3rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  color: white;
 }
 
 header nav {
   margin-right: 3rem;
 }
-header nav a{
+header nav{
   color: white;
-  font-size: 0.8rem;
-  text-decoration: none;
-  margin: 0 1rem;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 1rem;
+  margin-right: 3rem;
 }
 
-div.banner {
-  width: 960px;
-  margin: 0 auto;
-  background-image:  url("../resources/images/sleepers.jpg");
+
+
+div.abc {
+  width: 100%;
+  background-image:  url("../resources/new/door2_2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 40rem;
+  height: 700px;
+}
+
+div.abc div.banner {
+  height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: flex-end;
 }
 
-div.banner span {
-  display: none;
-  width: 100%;
-  font-size: 1.2rem;
-  background-color: lightblue;
+div.abc div.banner div.title {
+  width: 40%;
+  height: 3.6rem;
+  background-color: grey;
+  margin: 0 auto;
+  text-align: center;
 }
 
+div.title h1 {
+  font-size: 3rem;
+}
+
+div.nav {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+div.nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
+  height: 3.5rem;
+  background-color: grey;
+  font-weight: bold;
+  color: #971F06;
+  font-size: 1.5rem;
+  margin: 3rem;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+
+
+
+
+
 footer {
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
   padding: 0.7rem 0;
   color: white;
-  background-color: firebrick;
+  background-color: #971F06;
   text-align: right;
 }
 
