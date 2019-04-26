@@ -122,6 +122,10 @@ footer > span {
 
 
 @media only screen and (max-width: 1040px){
+  footer div.contact,
+  footer > span {
+      margin-right: 0.4rem;
+  }
   header nav{
     font-size: 0.8rem;
     text-align: right;
