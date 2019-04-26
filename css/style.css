@@ -43,7 +43,7 @@ header nav{
   font-size: 1.2rem;
   font-style: italic;
   margin-top: 1rem;
-  margin-right: 3rem;
+  margin-right: 4%;
 }
 
 
@@ -122,8 +122,18 @@ footer > span {
 
 
 @media only screen and (max-width: 1040px){
+  header nav{
+    font-size: 0.8rem;
+    text-align: right;
+  }
+  footer div.contact {
+    font-size: 0.6rem;
+  }
   div.abc {
-    height: 500px;
+    height: 550px;
+  }
+  div.nav div {
+    margin: 3%;
   }
   body {
     width: 100%;
@@ -131,5 +141,8 @@ footer > span {
     }
   html {
     font-size: 14px;
+  }
+  header span {
+    font-size: 1.5rem;
   }
 }
