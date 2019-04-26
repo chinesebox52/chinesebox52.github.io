@@ -6,6 +6,7 @@ html {
 body {
   line-height: 1.2;
   background-color: white;
+  min-width: 800px;
 }
 
 .strong {
@@ -56,7 +57,7 @@ div.abc {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 700px;
+  height: 800px;
 }
 
 div.abc div.banner {
@@ -93,7 +94,7 @@ div.nav div {
   background-color: grey;
   font-weight: bold;
   color: #971F06;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 3rem;
   text-align: center;
   padding: 0.5rem;
@@ -119,3 +120,9 @@ footer div.contact,
 footer > span {
     margin-right: 2rem;
 }
+
+
+@media only screen and (max-width: 1040px){
+  html {
+    font-size: 14px;
+  }

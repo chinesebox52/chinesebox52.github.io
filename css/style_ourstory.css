@@ -6,6 +6,7 @@ html {
 body {
   line-height: 1.2;
   background-color: white;
+  min-width: 800px;
 }
 
 .strong {
@@ -26,41 +27,52 @@ header {
   margin: 0 auto;
 }
 
+header nav a {
+  color: white;
+  margin-left: 3%;
+  margin-right: 3%;
 
-
-header span{
+}
+header nav {
   flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header #leftspan{
   font-size: 2rem;
-  margin-left: 3rem;
+  margin-left: 4%;
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: white;
 }
 
-header nav {
-  margin-right: 3rem;
-}
-header nav{
+
+header #rightspan{
   color: white;
   font-size: 1.2rem;
   font-style: italic;
   margin-top: 1rem;
-  margin-right: 3rem;
+  margin-right: 4%;
 }
-
 
 div.abc {
   background-color: hsla(215, 18%, 87%, 1);
   width: 100%;
-  min-height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding: 0.5rem 0;
 }
+
+
 img {
-  width: 500px;
+  max-width: 500px;
+  max-height: 500px;
   margin: 0.3rem;
 }
 h1 {
@@ -86,4 +98,29 @@ footer div.contact {
 footer div.contact,
 footer > span {
     margin-right: 2rem;
+}
+#latsdiv {
+  display: block;
+}
+#lastimg {
+  max-width: 1000px;
+  max-height: 1000px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1040px){
+  html {
+    font-size: 14px;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #nodisplay {
+    display: none;
+  }
+  #lastimg {
+    width: 700px;
+  }
 }
