@@ -109,6 +109,10 @@ footer > span {
 }
 
 @media only screen and (max-width: 1040px){
+  img {
+    max-width: 800px;
+    max-height: 800px;
+  }
   html {
     font-size: 14px;
   }
@@ -121,6 +125,6 @@ footer > span {
     display: none;
   }
   #lastimg {
-    width: 700px;
+    width: 800px;
   }
 }
